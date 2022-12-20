@@ -1,0 +1,15 @@
+.button {
+    background: rgb(20, 20, 221);
+    border-radius: 200px;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    transition: transform 100ms ease-in-out;
+    cursor: pointer;
+}
+
+.button:disabled {
+    background: gray;
+    cursor: not-allowed;
+    transform: none;
+}   
